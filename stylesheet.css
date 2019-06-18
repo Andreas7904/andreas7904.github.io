@@ -1,0 +1,85 @@
+
+body 
+
+{   background-color:darkgray;
+    background-image:url("leef.jpg");
+    background-repeat: no-repeat;
+    background-position-x:50px;
+    background-position-y: -70px;
+    background-size:900px;
+}   
+h4{
+    font-family: 'Courier New', Courier, monospace; 
+    font: left;
+    font-size:15px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+#e-mail {
+    margin-left: left 100px;
+    margin-top:5px;
+    margin-bottom: 200px;
+}
+ 
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 px;
+    border:none
+}
+p{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center
+}
+.button {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+.flex-container{
+   display: flex;
+   justify-content: center;
+  
+}
+.box{
+   height:50px;
+   width: 150px;
+   padding:50px;
+   text-align: center;
+  
+}
+   
+.one{
+    background: darkgray;
+    border:2px solid black;
+    border-radius: 15px;
+    }
+.one:hover{background-color:darkseagreen;;
+}
+.two{
+    background: darkgray;
+    border:2px solid black;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+.two:hover{background-color:darkseagreen;
+}       
+.three{
+    background: darkgray;
+    border:2px solid black;
+    border-radius: 15px;
+}
+.three:hover{background-color:darkseagreen;
+}    
+
